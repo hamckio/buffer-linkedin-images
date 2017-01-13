@@ -4,4 +4,5 @@
 
 ## Status
 
-Work in progress by [@hamckio](https://twitter.com/hamckio).
+Work in progress <sub><sup>(see [whiteboard](http://pastebin.com/k00ShUGM))</sup></sub>  
+by [@hamckio](https://twitter.com/hamckio)

@@ -7,7 +7,7 @@
 ## Status
 
 - [x] Automate posting of image using headless browser
-- [ ] Create scenario for both old and new LinkedIn interface
+- [x] Create scenario for both old and new LinkedIn interface
 - [ ] Detect which scenario to run based on account UI version
 - [ ] Integrate with Buffer scheduled posts
 

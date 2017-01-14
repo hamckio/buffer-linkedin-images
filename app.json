@@ -1,0 +1,7 @@
+{
+  "name": "Buffer for LinkedIn Images",
+  "description": "A micro-service for Buffer to handle LinkedIn Images natively",
+  "repository": "https://github.com/hamckio/buffer-linkedin-images",
+  "logo": "http://www.marcus-povey.co.uk/wp-content/buffer-app-logo.png",
+  "keywords": ["buffer", "linkedin", "images"]
+}

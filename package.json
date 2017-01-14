@@ -16,5 +16,9 @@
   ],
   "author": "hamckio <hamckio@protonmail.com>",
   "license": "ISC",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "nightmare": "^2.9.1",
+    "nightmare-upload": "^0.1.1"
+  }
 }

@@ -4,22 +4,21 @@
 
 > A micro-service for Buffer to handle LinkedIn Images natively
 
-## Status
+## Current Status
 
 - [x] Automate posting of image using headless browser
 - [x] Create scenario for both old and new LinkedIn interface
 - [ ] Detect which scenario to run based on account UI version
 - [ ] Integrate with Buffer scheduled posts
 
-## Current Usage
+## Usage
 
 This is a work in progress. But you can still try.
 
     $ git clone
     $ npm install
     $ LINKEDIN_EMAIL=[...] LINKEDIN_PASSWORD=[...] node index.js
-    
-Will only work for accounts that still has the normal/old LinkedIn UI.
 
-## Author
-[@hamckio](https://twitter.com/hamckio)
+## Demo
+
+![BUffer for LinkedIn Images Demonstration](https://s27.postimg.org/qprznhv83/ezgif_com_crop.gif)

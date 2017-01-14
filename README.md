@@ -6,5 +6,10 @@
 
 ## Status
 
-Work in progress <sub><sup>(see [whiteboard](http://pastebin.com/WuefTQmC))</sup></sub>  
-by [@hamckio](https://twitter.com/hamckio)
+- [x] Automate posting of image using headless browser
+- [ ] Create scenario for both old and new LinkedIn interface
+- [ ] Detect which scenario to run based on account UI version
+- [ ] Integrate with Buffer scheduled posts
+
+## Author
+[@hamckio](https://twitter.com/hamckio)

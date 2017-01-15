@@ -9,6 +9,7 @@
 - [x] Automate posting of image using headless browser
 - [x] Create scenario for both old and new LinkedIn interface
 - [ ] Detect which scenario to run based on account UI version
+- [ ] Setup as a micro-service with own queue
 - [ ] Integrate with Buffer scheduled posts
 
 ## Usage

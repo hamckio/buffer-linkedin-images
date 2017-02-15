@@ -2,28 +2,33 @@
 
 ---
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Build Status](https://travis-ci.org/hamckio/buffer-linkedin-images.svg?branch=master)](https://travis-ci.org/hamckio/buffer-linkedin-images) 
+[![Coverage Status](https://coveralls.io/repos/hamckio/buffer-linkedin-images/badge.svg?branch=master)](https://coveralls.io/r/hamckio/buffer-linkedin-images?branch=master) 
+[![Dependency Status](https://gemnasium.com/hamckio/buffer-linkedin-images.svg)](https://gemnasium.com/hamckio/buffer-linkedin-images)
 
 # Buffer for LinkedIn Images
 
-> A micro-service for Buffer to handle LinkedIn Images natively
+> A micro-service to schedule LinkedIn images posts
 
-## Current Status
+## Work in progress
 
 - [x] Automate posting of image using headless browser
-- [x] Create scenario for both old and new LinkedIn interface
-- [ ] Detect which scenario to run based on account UI version
-- [ ] Setup as a micro-service with own queue
+- [x] Setup as a micro-service with own queue
 - [ ] Integrate with Buffer scheduled posts
+
+## Automated Flow Demo
+
+![Buffer for LinkedIn Images Demonstration](https://s27.postimg.org/qprznhv83/ezgif_com_crop.gif)
 
 ## Usage
 
-This is a work in progress. But you can still try.
-
-    $ git clone
+    $ git clone git@github.com:hamckio/buffer-linkedin-images.git
+    $ cd ./buffer-linkedin-images/
     $ npm install
-    $ LINKEDIN_EMAIL=[...] LINKEDIN_PASSWORD=[...] node index.js
+    $ npm test
+    $ npm start
 
-## Demo
+## Contributing
 
-![BUffer for LinkedIn Images Demonstration](https://s27.postimg.org/qprznhv83/ezgif_com_crop.gif)
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+

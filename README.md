@@ -10,23 +10,23 @@
 
 > A micro-service to schedule LinkedIn images posts
 
-## Work in progress
-
-- [x] Automate posting of image using headless browser
-- [x] Setup as a micro-service with own queue
-- [ ] Integrate with Buffer scheduled posts
-
-## Automated Flow Demo
-
 ![Buffer for LinkedIn Images Demonstration](https://s27.postimg.org/qprznhv83/ezgif_com_crop.gif)
 
-## Usage
+## Installation
 
     $ git clone git@github.com:hamckio/buffer-linkedin-images.git
     $ cd ./buffer-linkedin-images/
     $ npm install
-    $ npm test
+    
+## Usage
+
+You can make ensure everything is working as expected by running the test successfully previous to starting the program:
+    
+    $ npm test    
     $ npm start
+    Buffer for LinkedIn Images started.
+    Scheduled posting 1 image from ./queue every day at 11:42pm.    
+
 
 ## Contributing
 

@@ -14,6 +14,8 @@
 
 ![Buffer for LinkedIn Images Demonstration](https://s27.postimg.org/qprznhv83/ezgif_com_crop.gif)
 
+*The GIF is a visualization of what is happening [here](https://github.com/hamckio/buffer-linkedin-images/blob/master/index.js#L29).*
+
 ## Installation
 
     $ git clone git@github.com:hamckio/buffer-linkedin-images.git

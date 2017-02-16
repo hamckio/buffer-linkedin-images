@@ -1,7 +1,16 @@
 {
   "name": "Buffer for LinkedIn Images",
-  "description": "A micro-service for Buffer to handle LinkedIn Images natively",
+  "description": "A micro-service to schedule LinkedIn images posts",
   "repository": "https://github.com/hamckio/buffer-linkedin-images",
   "logo": "http://www.marcus-povey.co.uk/wp-content/buffer-app-logo.png",
-  "keywords": ["buffer", "linkedin", "images"]
+  "keywords": ["buffer", "linkedin", "images"],
+  "env": {
+    "LINKEDIN_EMAIL": {
+      "description": "Email of the LinkedIn account to use on that instance."
+    },
+    "LINKEDIN_PASSWORD": {
+      "description": "The password associated to the LinkedIn account email.",
+      "value": "***************"
+    }
+  }
 }

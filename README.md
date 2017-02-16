@@ -1,3 +1,5 @@
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 :pencil: Draft: *["Buffer for LinkedIn Image  —  my contribution to Buffer through an opensource side project"](https://medium.com/@hamckio/buffer-for-linkedin-image-my-contribution-to-buffer-through-an-opensource-side-project-5df023503a0)*
 
 ---
@@ -23,7 +25,7 @@
 You can make ensure everything is working as expected by running the test successfully previous to starting the program:
     
     $ npm test    
-    $ npm start
+    $ LINKEDIN_EMAIL=hamckio@protonmail.com LINKEDIN_PASSWORD=******* npm start
     Buffer for LinkedIn Images started.
     Scheduled posting 1 image from ./queue every day at 11:42pm.    
 
